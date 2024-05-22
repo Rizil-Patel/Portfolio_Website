@@ -1,654 +1,930 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pars Coder || Portfolio website</title>
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rizil Patel || Portfolio website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style1.css" />
     <!-- boxicon css link -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
     <div class="overlay"></div>
     <header>
-        <a href="#" class="logo"><span>R</span>izil</a>
-        <ul class="navlist">
-            <li><a href="#home" class="active">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <div class="right-header">
-            <a href="#" class="btn">Let's chat <i class='bx bx-message-dots' ></i></a>
-            <div class="menu-icon">
-                <div class="bar"></div>
-            </div>
+      <a href="#" class="logo"><span>R</span>izil</a>
+      <ul class="navlist">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <!-- <li><a href="#blog">Blog</a></li> -->
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#home" id="contact-button">Contact</a></li>
+      </ul>
+      <div class="right-header">
+        <a href="#" class="btn"
+          >Let's chat <i class="bx bx-message-dots"></i
+        ></a>
+        <div class="menu-icon">
+          <div class="bar"></div>
         </div>
+      </div>
     </header>
 
+    <div id="contactModal" class="modal">
+      <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2 style="color: rgb(145, 142, 142);">Contact Information</h2>
+          <p>Phone: <span style="color: #b40693">+91-8552002911</span></p>
+          <p>Email: <span style="color: #b40693">rizilpatelpune@gmail.com</span></p>
+          <a href="https://www.instagram.com/_rizil_patel/" target="_blank"><i class="bx bxl-instagram"></i></a>
+          <a href="https://github.com/Rizil-Patel" target="_blank"><i class="bx bxl-github"></i></a>
+          <a href="https://x.com/patel_rizil" target="_blank"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/rizil-patel-907456257/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+      </div>
+  </div>
+  
+
     <section class="home" id="home">
-        <div class="hero-info">
-            <h3>Crafting Unique Digital Experiences/h3>
-            <h1>Hi I'm Rizil</h1>
+      <div class="hero-info">
+        <h3>Crafting Unique Digital Experiences</h3>
+        <h1>Hi I'm Rizil</h1>
 
-            <div class="text-animate">
-                <h2>Web Developer</h2>
-            </div>
-
-            <p>As a dedicated full stack web developer, I excel in building robust, scalable applications from the ground up. With expertise in both front-end and back-end technologies, I craft seamless and efficient user experiences. Let's collaborate to bring your vision to life with precision and innovation.</p>
-
-            <div class="btn-box">
-                <a href="221210089@nitdelhi.ac.in" class="btn">Hire Me Now ! <i class='bx bx-right-arrow-alt' ></i></a>
-                <a href="img/Rizil_Resume (2).pdf" target="_blank" class="btn d-CV">Download CV <i class='bx bx-download'></i></a>
-            </div>
-
-            <div class="social-media">
-                <div class="bg-icon">
-                    <a href="https://www.instagram.com/_rizil_patel/" target="_blank"><i class='bx bxl-instagram'></i></a>
-                    <span></span>
-                </div>
-
-                <div class="bg-icon">
-                    <a href="https://github.com/Rizil-Patel" target="_blank"><i class='bx bxl-github'></i></a>
-                    <span></span>
-                </div>
-
-                <div class="bg-icon">
-                    <a href="https://x.com/patel_rizil" target="_blank"><i class='bx bxl-twitter'></i></a>
-                    <span></span>
-                </div>
-
-                <div class="bg-icon">
-                    <a href="https://www.linkedin.com/in/rizil-patel-907456257/" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                    <span></span>
-                </div>
-            </div>
+        <div class="text-animate">
+          <h2>FullStack Developer</h2>
         </div>
-        <div class="img-hero">
-            <img src="img/rizil.png" style="margin-top: 85px;margin-left: 2.5px;" alt="">
-            <div class="rotate-text">
-                <div class="text">
-                    <p>Full Stack Developer | MERN Stack Expert | Frontend Specialist</p>
-                </div>
-                <span><i></i></span>
-            </div>
+
+        <p>
+          As a dedicated full stack web developer, I excel in building robust,
+          scalable applications from the ground up. With expertise in both
+          front-end and back-end technologies, I craft seamless and efficient
+          user experiences. Let's collaborate to bring your vision to life with
+          precision and innovation.
+        </p>
+
+        <div class="btn-box">
+          <a href="mailto:rizilpatelpune@gmail.com" class="btn"
+            >Hire Me Now ! <i class="bx bx-right-arrow-alt"></i
+          ></a>
+          <a href="img/Rizil_Resume (2).pdf" target="_blank" class="btn d-CV"
+            >Download CV <i class="bx bx-download"></i
+          ></a>
         </div>
+
+        <div class="social-media">
+          <div class="bg-icon">
+            <a href="https://www.instagram.com/_rizil_patel/" target="_blank"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <span></span>
+          </div>
+
+          <div class="bg-icon">
+            <a href="https://github.com/Rizil-Patel" target="_blank"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <span></span>
+          </div>
+
+          <div class="bg-icon">
+            <a href="https://x.com/patel_rizil" target="_blank"
+              ><i class="bx bxl-twitter"></i
+            ></a>
+            <span></span>
+          </div>
+
+          <div class="bg-icon">
+            <a
+              href="https://www.linkedin.com/in/rizil-patel-907456257/"
+              target="_blank"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <div class="img-hero">
+        <img
+          src="img/rizil.png"
+          style="margin-top: 85px; margin-left: 2.5px"
+          alt=""
+        />
+        <div class="rotate-text">
+          <div class="text">
+            <p>
+              Full Stack Developer | MERN Stack Expert | Frontend Specialist
+            </p>
+          </div>
+          <span><i></i></span>
+        </div>
+      </div>
     </section>
 
     <section class="about" id="about">
-        <div class="about-img">
-            <img src="img/aboutimage-removebg-preview.png" alt="" class="aboutHero">
-            <div class="showcase-ring">
-                <img src="shapes/ring.png" class="ring">
-                <img src="shapes/circle.png" class="circle">
-            </div>
+      <div class="about-img">
+        <img
+          src="img/aboutimage-removebg-preview.png"
+          alt=""
+          class="aboutHero"
+        />
+        <div class="showcase-ring">
+          <img src="shapes/ring.png" class="ring" />
+          <img src="shapes/circle.png" class="circle" />
         </div>
-        <div class="about-content">
-            <h2 class="heading">About Me</h2>
-            <h3>1 year of Experience in Web development</h3>
-            <p>With a year of hands-on experience in web development, I specialize in creating responsive, user-friendly websites. My expertise spans front-end technologies and the MERN stack, delivering efficient and scalable solutions. Let's build something amazing together.</p>
-            <div class="about-btn">
-                <button class="active">Main Skills</button>
-                <button>Awards</button>
-                <button>Education</button>
-            </div>
-            <div class="content-btn">
-                <div class="content">
-                    <div class="text-box">
-                        <p>Web Design & React Development</p>
-                        <span>Crafting beautiful and dynamic user interfaces with modern technologies.</span>
-                    </div>
-                    <div class="text-box">
-                        <p>MERN Stack Development</p>
-                        <span>Building robust, scalable full-stack applications using MongoDB, Express, React, and Node.js.</span>
-                    </div>
-                    <div class="text-box">
-                        <p>API Integration & Database Management</p>
-                        <span>Seamlessly connecting front-end interfaces with back-end services and managing data efficiently.</span>
-                    </div>
-                </div>
-
-                <div class="content">
-                <div class="text-box">
-                    <p>Hackathons and coding Competiotions</p>
-                    <span>Participating in hackathons and coding.</span>
-                    <br>
-                    <span>Got selected in cyber Hackathon in top 13 teams in India</span>
-                </div>
-                </div>
-
-
-                <div class="content">
-                    <div class="text-box">
-                    <p>Online Courses and BootCamps</p>
-                    <span>Delight the user and make it work.</span>
-                </div>
-                <div class="text-box">
-                    <p>MERN Stack Development Course</p>
-                    <span>Website , Web Experience , ...</span>
-                </div>
-                <div class="text-box">
-                    <p>Bachelor's Degree in Computer Science</p>
-                    <span>NIT Delhi (2022-2026)</span>
-                </div>
-                </div>
-            </div>
-            <div class="cvContent">
-                <a href="img/Rizil_Resume (2).pdf" target="_blank" class="btn d-CV">Download CV <i class='bx bx-download'></i></a>
-            </div>
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About Me</h2>
+        <h3>1 year of Experience in Web development</h3>
+        <p>
+          With a year of hands-on experience in web development, I specialize in
+          creating responsive, user-friendly websites. My expertise spans
+          front-end technologies and the MERN stack, delivering efficient and
+          scalable solutions. Let's build something amazing together.
+        </p>
+        <div class="about-btn">
+          <button class="active">Expertise</button>
+          <button>Achievements</button>
+          <button>Education</button>
+          <button>Certifications</button>
         </div>
+        <div class="content-btn">
+          <div class="content">
+            <div class="text-box">
+              <p>Web Design & React Development</p>
+              <span
+                >Crafting beautiful and dynamic user interfaces with modern
+                technologies.</span
+              >
+            </div>
+            <div class="text-box">
+              <p>MERN Stack Development</p>
+              <span
+                >Building robust, scalable full-stack applications using
+                MongoDB, Express, React, and Node.js.</span
+              >
+            </div>
+            <div class="text-box">
+              <p>API Integration & Database Management</p>
+              <span
+                >Seamlessly connecting front-end interfaces with back-end
+                services and managing data efficiently.</span
+              >
+            </div>
+          </div>
+
+          <div class="content">
+            <div class="text-box">
+              <p>Hackathons and coding Competiotions</p>
+              <span>Participating in hackathons and coding.</span>
+              <br />
+              <span
+                >Got selected in cyber Hackathon in top 13 teams in India</span
+              >
+            </div>
+          </div>
+
+          <div class="content">
+            <div class="text-box">
+              <P>2022-Now</P>
+              <p>National Institute of Technology Delhi</p>
+              <span>Bachelor of Technology in Computer Science and Engineering</span>
+              <br>
+              <span>CGPA - 7.77</span>
+            </div>
+            <div class="text-box">
+              <p>2019-2021</p>
+              <p>Chate School And Jr. College - XII </p>
+              <span>Senior Secondary </span>
+              <br>
+              <span>Percentage - 97%</span>
+            </div>
+            <div class="text-box">
+              <p>Class 1 - 10 completed(2019)</p>
+              <p>Pride English School</p>
+              <span>Secondary</span>
+              <br>
+              <span>Percentage - 91%</span>
+            </div>
+          </div>
+
+          <div class="content">
+            <div class="text-box">
+              <p>Online Courses And BootCamps</p>
+              <span>Delight the user and make it work.</span>
+            </div>
+            <div class="text-box">
+              <p>Full Stack Development</p>
+              <span>Proficient in developing dynamic websites</span>
+            </div>
+          </div>
+        </div>
+        <div class="cvContent">
+          <a href="img/Rizil_Resume (2).pdf" target="_blank" class="btn d-CV"
+            >Download CV <i class="bx bx-download"></i
+          ></a>
+        </div>
+      </div>
     </section>
 
     <section class="services" id="services">
-        <div class="main-text">
-            <h2 class="heading">My Services</h2>
-            <span>what i will do for you</span>
+      <div class="main-text">
+        <h2 class="heading">My Services</h2>
+        <span>what i will do for you</span>
+      </div>
+
+      <div class="allServices">
+        <div class="servicesItem">
+          <div class="icon-services">
+            <i class="bx bx-layer"></i>
+            <span></span>
+          </div>
+          <h3>Web Design</h3>
+          <p>
+            Crafting visually appealing and user-friendly websites tailored
+            specifically to reflect your brand identity. Delivering unparalleled
+            quality and creativity with every project.
+          </p>
+          <a href="#" class="readMore">Read More</a>
         </div>
 
-        <div class="allServices">
-            <div class="servicesItem">
-                <div class="icon-services">
-                    <i class='bx bx-layer' ></i>
-                    <span></span>
-                </div>
-                <h3>Web Design</h3>
-                <p>Crafting visually appealing and user-friendly websites tailored specifically to reflect your brand identity. Delivering unparalleled quality and creativity with every project.</p>
-                <a href="#" class="readMore">Read More</a>
-            </div>
-
-            <div class="servicesItem">
-                <div class="icon-services">
-                    <i class='bx bx-code-alt' ></i>
-                    <span></span>
-                </div>
-                <h3>Frontend React development</h3>
-                <p>Expert in front-end React development, crafting seamless, dynamic websites for exceptional user experiences. Efficient, scalable, and modern solutions.</p>
-                <a href="#" class="readMore">Read More</a>
-            </div>
-
-            <div class="servicesItem">
-                <div class="icon-services">
-                    <i class='bx bx-desktop' ></i>
-                    <span></span>
-                </div>
-                <h3>Full Stack Development</h3>
-                <p>Proficient in full-stack web development, leveraging MERN stack & Flask Python for robust, scalable web apps. Delivering tailored solutions from front-end design to back-end functionality.</p>
-                <a href="#" class="readMore">Read More</a>
-            </div>
-
-            <div class="servicesItem">
-                <div class="icon-services">
-                    <i class='bx bxs-party' ></i>
-                    <span></span>
-                </div>
-                <h3>API Integration and Database Management</h3>
-                <p>Specializing in seamless API integration & database management, ensuring optimal functionality. From API setup to complex database management.</p>
-                <a href="#" class="readMore">Read More</a>
-            </div>
+        <div class="servicesItem">
+          <div class="icon-services">
+            <i class="bx bx-code-alt"></i>
+            <span></span>
+          </div>
+          <h3>Frontend React development</h3>
+          <p>
+            Expert in front-end React development, crafting seamless, dynamic
+            websites for exceptional user experiences. Efficient, scalable, and
+            modern solutions.
+          </p>
+          <a href="#" class="readMore">Read More</a>
         </div>
 
-        <div class="proposal">
-            <div class="text-box">
-                <span>Get It Touch</span>
-                <h3>Have a Project On Your Mind</h3>
-                <a href="#contact" class="btn">Contact Me</a>
-            </div>
-            <img src="img/support.png" class="first">
+        <div class="servicesItem">
+          <div class="icon-services">
+            <i class="bx bx-desktop"></i>
+            <span></span>
+          </div>
+          <h3>Full Stack Development</h3>
+          <p>
+            Proficient in full-stack web development, leveraging MERN stack &
+            Flask Python for robust, scalable web apps. Delivering tailored
+            solutions from front-end design to back-end functionality.
+          </p>
+          <a href="#" class="readMore">Read More</a>
         </div>
 
-        <div class="showcase">
-            <img src="shapes/ring.png" class="ring">
-            <img src="shapes/circle.png" class="circle">
-            <img src="shapes/circle.png" class="circle2">
-            <img src="shapes/circle.png" class="circle3">
-            <img src="shapes/half-ring.png" class="half-ring">
+        <div class="servicesItem">
+          <div class="icon-services">
+            <i class="bx bxs-party"></i>
+            <span></span>
+          </div>
+          <h3>API Integration and Database Management</h3>
+          <p>
+            Specializing in seamless API integration & database management,
+            ensuring optimal functionality. From API setup to complex database
+            management.
+          </p>
+          <a href="#" class="readMore">Read More</a>
         </div>
+      </div>
+
+      <div class="proposal">
+        <div class="text-box">
+          <span>Get It Touch</span>
+          <h3>Have a Project On Your Mind</h3>
+          <a href="#contact" class="btn">Contact Me</a>
+        </div>
+        <img src="img/support.png" class="first" />
+      </div>
+
+      <div class="showcase">
+        <img src="shapes/ring.png" class="ring" />
+        <img src="shapes/circle.png" class="circle" />
+        <img src="shapes/circle.png" class="circle2" />
+        <img src="shapes/circle.png" class="circle3" />
+        <img src="shapes/half-ring.png" class="half-ring" />
+      </div>
     </section>
 
     <section class="portfolio" id="portfolio">
-        <div class="main-text">
-            <h2 class="heading">My Services</h2>
-            <span>what i will do for you</span>
-        </div>
-        <div class="fillter-buttons">
-            <button class="button mixitup-control-active" data-filter="all">All Work</button>
-            <button class="button" data-filter=".web">Web design</button>
-            <button class="button" data-filter=".uiux">Full Stack Websites</button>
-            <button class="button" data-filter=".branding">API integration and Database</button>
-        </div>
+      <div class="main-text">
+        <h2 class="heading">My Projects</h2>
+        <span>what i will do for you</span>
+      </div>
+      <div class="fillter-buttons">
+        <button class="button mixitup-control-active" data-filter="all">
+          All Work
+        </button>
+        <button class="button" data-filter=".web">Web design</button>
+        <button class="button" data-filter=".uiux">Full Stack Websites</button>
+        <button class="button" data-filter=".branding">
+          API integration and Database
+        </button>
+      </div>
 
-        <div class="portfolio-gallery">
-            <div class="portfolio-box mix uiux">
-                <div class="portfolio-content">
-                    <h3>Cake Website</h3>
-                    <p>Created a cake website frontend with HTML, CSS, and JavaScript. It features a responsive design and vibrant animations for an engaging user experience.</p>
-                    <a href="#" class="readMore">Explore More</a>
-                </div>
-                <div class="portfolio-img">
-                    <img src="img/portfolio/1.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="portfolio-box mix web">
-                <div class="portfolio-content">
-                    <h3>Flipkart E-commerce</h3>
-                    <p>Implemented a Flipkart clone website utilizing the MERN stack for robust e-commerce functionality and seamless user interaction.</p>
-                    <a href="#" class="readMore">Explore More</a>
-                </div>
-                <div class="portfolio-img">
-                    <img src="img/portfolio/2.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="portfolio-box mix web">
-                <div class="portfolio-content">
-                    <h3>Chat Application</h3>
-                    <p>Crafted a dynamic chat application employing React for the frontend and Appwrite for backend functionalities, ensuring real-time messaging and secure data management.</p>
-                    <a href="#" class="readMore">Explore More</a>
-                </div>
-                <div class="portfolio-img">
-                    <img src="img/portfolio/3.jpg" alt="">
-                </div>
-            </div>
-
-
-            <div class="portfolio-box mix web">
-                <div class="portfolio-content">
-                    <h3>News-Blog</h3>
-                    <p>Experience my News Blog Website project, meticulously developed with React, where every click unveils a world of information, seamlessly blending sleek design with dynamic functionality.</p>
-                    <a href="#" class="readMore">Explore More</a>
-                </div>
-                <div class="portfolio-img">
-                    <img src="img/portfolio/4.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="portfolio-box mix uiux">
-                <div class="portfolio-content">
-                    <h3>Admin Dashboard desing</h3>
-                    <p>Explore my Admin Dashboard Design project, meticulously crafted with React, where intuitive interfaces meet powerful functionality, empowering you to manage and control with ease</p>
-                    <a href="#" class="readMore">Explore More</a>
-                </div>
-                <div class="portfolio-img">
-                    <img src="img/portfolio/5.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="portfolio-box mix branding">
-                <div class="portfolio-content">
-                    <h3>API weather website</h3>
-                    <p>Explore my Weather API Website project, meticulously crafted with HTML, CSS, and JavaScript, where seamless API integration meets elegant design, showcasing my skills in leveraging data to create engaging and informative experiences.</p>
-                    <a href="#" class="readMore">Explore More</a>
-                </div>
-                <div class="portfolio-img">
-                    <img src="img/portfolio/6.jpg" alt="">
-                </div>
-            </div>
+      <div class="portfolio-gallery">
+        <div class="portfolio-box mix uiux">
+          <div class="portfolio-content">
+            <h3>Cake Website</h3>
+            <p>
+              Created a cake website frontend with HTML, CSS, and JavaScript. It
+              features a responsive design and vibrant animations for an
+              engaging user experience.
+            </p>
+            <a href="#" class="readMore">Explore More</a>
+          </div>
+          <div class="portfolio-img">
+            <img src="img/portfolio/1.jpg" alt="" />
+          </div>
         </div>
 
+        <div class="portfolio-box mix web">
+          <div class="portfolio-content">
+            <h3>Flipkart E-commerce</h3>
+            <p>
+              Implemented a Flipkart clone website utilizing the MERN stack for
+              robust e-commerce functionality and seamless user interaction.
+            </p>
+            <a href="#" class="readMore">Explore More</a>
+          </div>
+          <div class="portfolio-img">
+            <img src="img/portfolio/2.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="portfolio-box mix web">
+          <div class="portfolio-content">
+            <h3>Chat Application</h3>
+            <p>
+              Crafted a dynamic chat application employing React for the
+              frontend and Appwrite for backend functionalities, ensuring
+              real-time messaging and secure data management.
+            </p>
+            <a href="#" class="readMore">Explore More</a>
+          </div>
+          <div class="portfolio-img">
+            <img src="img/portfolio/3.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="portfolio-box mix web">
+          <div class="portfolio-content">
+            <h3>News-Blog</h3>
+            <p>
+              Experience my News Blog Website project, meticulously developed
+              with React, where every click unveils a world of information,
+              seamlessly blending sleek design with dynamic functionality.
+            </p>
+            <a href="#" class="readMore">Explore More</a>
+          </div>
+          <div class="portfolio-img">
+            <img src="img/portfolio/4.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="portfolio-box mix uiux">
+          <div class="portfolio-content">
+            <h3>Admin Dashboard desing</h3>
+            <p>
+              Explore my Admin Dashboard Design project, meticulously crafted
+              with React, where intuitive interfaces meet powerful
+              functionality, empowering you to manage and control with ease
+            </p>
+            <a href="#" class="readMore">Explore More</a>
+          </div>
+          <div class="portfolio-img">
+            <img src="img/portfolio/5.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="portfolio-box mix branding">
+          <div class="portfolio-content">
+            <h3>API weather website</h3>
+            <p>
+              Explore my Weather API Website project, meticulously crafted with
+              HTML, CSS, and JavaScript, where seamless API integration meets
+              elegant design, showcasing my skills in leveraging data to create
+              engaging and informative experiences.
+            </p>
+            <a href="#" class="readMore">Explore More</a>
+          </div>
+          <div class="portfolio-img">
+            <img src="img/portfolio/6.jpg" alt="" />
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section class="blog" id="blog">
-        <div class="main-text">
-            <h2 class="heading">Blog</h2>
-            <span>Latest News & Post</span>
-        </div>
+    <!-- <section class="blog" id="blog">
+      <div class="main-text">
+        <h2 class="heading">Blog</h2>
+        <span>Latest News & Post</span>
+      </div>
 
-        <div class="blog-box swiper mySwiper">
-            <div class="cards swiper-wrapper">
-                <div class="card swiper-slide">
-                    <div class="card-top">
-                        <img src="img/blog/1.jpg" alt="">
-                    </div>
-                    <div class="card-info">
-                        <h2>Mobile App Landing Page</h2>
-                        <span class="date">Sunday, Jan 14, 2023</span>
-                        <p class="excerpt">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.
-                        </p>
-                        <a href="#" class="readMore">Explore More</a>
-                    </div>
-                </div>
-
-                <div class="card swiper-slide">
-                    <div class="card-top">
-                        <img src="img/blog/2.jpg" alt="">
-                    </div>
-                    <div class="card-info">
-                        <h2>Mobile App Landing Page</h2>
-                        <span class="date">Sunday, Jan 14, 2023</span>
-                        <p class="excerpt">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.
-                        </p>
-                        <a href="#" class="readMore">Explore More</a>
-                    </div>
-                </div>
-
-                <div class="card swiper-slide">
-                    <div class="card-top">
-                        <img src="img/blog/3.jpg" alt="">
-                    </div>
-                    <div class="card-info">
-                        <h2>Mobile App Landing Page</h2>
-                        <span class="date">Sunday, Jan 14, 2023</span>
-                        <p class="excerpt">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.
-                        </p>
-                        <a href="#" class="readMore">Explore More</a>
-                    </div>
-                </div>
-
-                <div class="card swiper-slide">
-                    <div class="card-top">
-                        <img src="img/blog/4.jpg" alt="">
-                    </div>
-                    <div class="card-info">
-                        <h2>Mobile App Landing Page</h2>
-                        <span class="date">Sunday, Jan 14, 2023</span>
-                        <p class="excerpt">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.
-                        </p>
-                        <a href="#" class="readMore">Explore More</a>
-                    </div>
-                </div>
-
-                <div class="card swiper-slide">
-                    <div class="card-top">
-                        <img src="img/blog/5.jpg" alt="">
-                    </div>
-                    <div class="card-info">
-                        <h2>Mobile App Landing Page</h2>
-                        <span class="date">Sunday, Jan 14, 2023</span>
-                        <p class="excerpt">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.
-                        </p>
-                        <a href="#" class="readMore">Explore More</a>
-                    </div>
-                </div>
-
-                <div class="card swiper-slide">
-                    <div class="card-top">
-                        <img src="img/blog/6.jpg" alt="">
-                    </div>
-                    <div class="card-info">
-                        <h2>Mobile App Landing Page</h2>
-                        <span class="date">Sunday, Jan 14, 2023</span>
-                        <p class="excerpt">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.
-                        </p>
-                        <a href="#" class="readMore">Explore More</a>
-                    </div>
-                </div>
-
+      <div class="blog-box swiper mySwiper">
+        <div class="cards swiper-wrapper">
+          <div class="card swiper-slide">
+            <div class="card-top">
+              <img src="img/blog/1.jpg" alt="" />
             </div>
-        </div>
-
-        <div class="swiper-pagination"></div>
-
-        <div class="showcase">
-            <img src="shapes/ring.png" class="ring">
-            <img src="shapes/second-circle.png" class="second-circle">
-            <img src="shapes/circle.png" class="circle">
-            <img src="shapes/half-ring.png" class="half-ring">
-        </div>
-
-    </section>
-
-    <section class="down-box" id="contact">
-        <div class="contactSkills">
-            <div class="contact-info" style="height: 40rem;">
-                <div class="main-text">
-                    <h2 class="heading">Contact Me</h2>
-                    <span>get in touch with me</span>
-                </div>
-                <form action="#">
-                    <div class="input-box">
-                        <input type="text" placeholder="First Name">
-                        <input type="text" placeholder="Last Name">
-                    </div>
-                    <input type="email" placeholder="Email">
-                    <input type="text" placeholder="Subject">
-                    <textarea name="#" id="" cols="30" rows="10">
-                    </textarea>
-                    <div class="formBtn">
-                        <button type="submit" class="btn">Send Message</button>
-                    </div>
-                </form>
+            <div class="card-info">
+              <h2>Mobile App Landing Page</h2>
+              <span class="date">Sunday, Jan 14, 2023</span>
+              <p class="excerpt">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Maiores, illo.
+              </p>
+              <a href="#" class="readMore">Explore More</a>
             </div>
-            <div class="skills">
-                <div class="container">
-                    <div class="skillBox">
-                        <div class="main-text">
-                            <h2 class="heading">My Skills</h2>
-                            <span>Let Me Help you</span>
-                        </div>
-                        <div class="skill-wrap">
-                            <div class="skill">
-                                <div class="outer-circle">
-                                    <div class="inner-circle">
-                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
-                                            <defs>
-                                                <linearGradient id="GradientColor">
-                                                <stop offset="0%" stop-color="#e91e63" />
-                                                <stop offset="100%" stop-color="#673ab7" />
-                                                </linearGradient>
-                                            </defs>
-                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
-                                       </svg>
-                                       <h2 class="counter">
-                                        <span data-target="89">0</span>%
-                                       </h2>
-                                    </div>
-                                </div>
-                                <div class="sk-title">
-                                    HTML
-                                </div>
-                            </div>
+          </div>
 
-                            <div class="skill">
-                                <div class="outer-circle">
-                                    <div class="inner-circle">
-                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
-                                            <defs>
-                                                <linearGradient id="GradientColor">
-                                                <stop offset="0%" stop-color="#e91e63" />
-                                                <stop offset="100%" stop-color="#673ab7" />
-                                                </linearGradient>
-                                            </defs>
-                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
-                                       </svg>
-                                       <h2 class="counter">
-                                        <span data-target="47">0</span>%
-                                       </h2>
-                                    </div>
-                                </div>
-                                <div class="sk-title">
-                                    CSS
-                                </div>
-                            </div>
-
-
-                            <div class="skill">
-                                <div class="outer-circle">
-                                    <div class="inner-circle">
-                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
-                                            <defs>
-                                                <linearGradient id="GradientColor">
-                                                <stop offset="0%" stop-color="#e91e63" />
-                                                <stop offset="100%" stop-color="#673ab7" />
-                                                </linearGradient>
-                                            </defs>
-                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
-                                       </svg>
-                                       <h2 class="counter">
-                                        <span data-target="56">0</span>%
-                                       </h2>
-                                    </div>
-                                </div>
-                                <div class="sk-title">
-                                    JavaScript
-                                </div>
-                            </div>
-
-
-                            <div class="skill">
-                                <div class="outer-circle">
-                                    <div class="inner-circle">
-                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
-                                            <defs>
-                                                <linearGradient id="GradientColor">
-                                                <stop offset="0%" stop-color="#e91e63" />
-                                                <stop offset="100%" stop-color="#673ab7" />
-                                                </linearGradient>
-                                            </defs>
-                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
-                                       </svg>
-                                       <h2 class="counter">
-                                        <span data-target="60">0</span>%
-                                       </h2>
-                                    </div>
-                                </div>
-                                <div class="sk-title">
-                                    Tailwind And Bootstrap
-                                </div>
-                            </div>
-
-                            <div class="skill">
-                                <div class="outer-circle">
-                                    <div class="inner-circle">
-                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
-                                            <defs>
-                                                <linearGradient id="GradientColor">
-                                                <stop offset="0%" stop-color="#e91e63" />
-                                                <stop offset="100%" stop-color="#673ab7" />
-                                                </linearGradient>
-                                            </defs>
-                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
-                                       </svg>
-                                       <h2 class="counter">
-                                        <span data-target="65">0</span>%
-                                       </h2>
-                                    </div>
-                                </div>
-                                <div class="sk-title">
-                                    React.Js And MUI library
-                                </div>
-                            </div>
-
-                            <div class="skill">
-                                <div class="outer-circle">
-                                    <div class="inner-circle">
-                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
-                                            <defs>
-                                                <linearGradient id="GradientColor">
-                                                <stop offset="0%" stop-color="#e91e63" />
-                                                <stop offset="100%" stop-color="#673ab7" />
-                                                </linearGradient>
-                                            </defs>
-                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
-                                       </svg>
-                                       <h2 class="counter">
-                                        <span data-target="45">0</span>%
-                                       </h2>
-                                    </div>
-                                </div>
-                                <div class="sk-title">
-                                    Express.Js and Node.Js
-                                </div>
-                            </div>
-
-                            <div class="skill">
-                                <div class="outer-circle">
-                                    <div class="inner-circle">
-                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
-                                            <defs>
-                                                <linearGradient id="GradientColor">
-                                                <stop offset="0%" stop-color="#e91e63" />
-                                                <stop offset="100%" stop-color="#673ab7" />
-                                                </linearGradient>
-                                            </defs>
-                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
-                                       </svg>
-                                       <h2 class="counter">
-                                        <span data-target="48">0</span>%
-                                       </h2>
-                                    </div>
-                                </div>
-                                <div class="sk-title">
-                                    MongoDB And MySql
-                                </div>
-                            </div>
-
-                            <div class="skill">
-                                <div class="outer-circle">
-                                    <div class="inner-circle">
-                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
-                                            <defs>
-                                                <linearGradient id="GradientColor">
-                                                <stop offset="0%" stop-color="#e91e63" />
-                                                <stop offset="100%" stop-color="#673ab7" />
-                                                </linearGradient>
-                                            </defs>
-                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
-                                       </svg>
-                                       <h2 class="counter">
-                                        <span data-target="51">0</span>%
-                                       </h2>
-                                    </div>
-                                </div>
-                                <div class="sk-title">
-                                    Python Flask
-                                </div>
-                            </div>
-
-                            <div class="skill">
-                                <div class="outer-circle">
-                                    <div class="inner-circle">
-                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
-                                            <defs>
-                                                <linearGradient id="GradientColor">
-                                                <stop offset="0%" stop-color="#e91e63" />
-                                                <stop offset="100%" stop-color="#673ab7" />
-                                                </linearGradient>
-                                            </defs>
-                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
-                                       </svg>
-                                       <h2 class="counter">
-                                        <span data-target="77">0</span>%
-                                       </h2>
-                                    </div>
-                                </div>
-                                <div class="sk-title">
-                                    Ai tools
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          <div class="card swiper-slide">
+            <div class="card-top">
+              <img src="img/blog/2.jpg" alt="" />
             </div>
+            <div class="card-info">
+              <h2>Mobile App Landing Page</h2>
+              <span class="date">Sunday, Jan 14, 2023</span>
+              <p class="excerpt">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Maiores, illo.
+              </p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="card-top">
+              <img src="img/blog/3.jpg" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Mobile App Landing Page</h2>
+              <span class="date">Sunday, Jan 14, 2023</span>
+              <p class="excerpt">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Maiores, illo.
+              </p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="card-top">
+              <img src="img/blog/4.jpg" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Mobile App Landing Page</h2>
+              <span class="date">Sunday, Jan 14, 2023</span>
+              <p class="excerpt">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Maiores, illo.
+              </p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="card-top">
+              <img src="img/blog/5.jpg" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Mobile App Landing Page</h2>
+              <span class="date">Sunday, Jan 14, 2023</span>
+              <p class="excerpt">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Maiores, illo.
+              </p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="card-top">
+              <img src="img/blog/6.jpg" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Mobile App Landing Page</h2>
+              <span class="date">Sunday, Jan 14, 2023</span>
+              <p class="excerpt">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Maiores, illo.
+              </p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
         </div>
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+      <div class="showcase">
+        <img src="shapes/ring.png" class="ring" />
+        <img src="shapes/second-circle.png" class="second-circle" />
+        <img src="shapes/circle.png" class="circle" />
+        <img src="shapes/half-ring.png" class="half-ring" />
+      </div>
+    </section> -->
+
+    <section class="down-box" id="skills">
+      <div class="contactSkills">
+        <!-- <div class="contact-info" style="height: 40rem">
+          <div class="main-text">
+            <h2 class="heading">Contact Me</h2>
+            <span>get in touch with me</span>
+          </div>
+          <form action="#">
+            <div class="input-box">
+              <input type="text" placeholder="First Name" />
+              <input type="text" placeholder="Last Name" />
+            </div>
+            <input type="email" placeholder="Email" />
+            <input type="text" placeholder="Subject" />
+            <textarea name="#" id="" cols="30" rows="10"> </textarea>
+            <div class="formBtn">
+              <button type="submit" class="btn">Send Message</button>
+            </div>
+          </form>
+        </div> -->
+        <div class="skills">
+          <div class="container">
+            <div class="skillBox">
+              <div class="main-text">
+                <h2 class="heading">My Skills</h2>
+                <span>Let Me Help you</span>
+              </div>
+              <div class="skill-wrap">
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        version="1.1"
+                        width="180px"
+                        height="180px"
+                      >
+                        <defs>
+                          <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                          </linearGradient>
+                        </defs>
+                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                      </svg>
+                      <h2 class="counter"><span data-target="89">0</span>%</h2>
+                    </div>
+                  </div>
+                  <img style="width: 4rem ;height: 4rem;padding: 4px;" src="img/html.png" alt="HTML Logo" class="skill-icon">
+                  <div class="sk-title">HTML</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        version="1.1"
+                        width="180px"
+                        height="180px"
+                      >
+                        <defs>
+                          <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                          </linearGradient>
+                        </defs>
+                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                      </svg>
+                      <h2 class="counter"><span data-target="47">0</span>%</h2>
+                    </div>
+                  </div>
+                  <img style="width: 4rem ;height: 4rem;padding: 4px;" src="img/css.png" alt="HTML Logo" class="skill-icon">
+                  <div class="sk-title">CSS</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        version="1.1"
+                        width="180px"
+                        height="180px"
+                      >
+                        <defs>
+                          <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                          </linearGradient>
+                        </defs>
+                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                      </svg>
+                      <h2 class="counter"><span data-target="56">0</span>%</h2>
+                    </div>
+                  </div>
+                  <img style="width: 4rem ;height: 4rem;padding: 4px;" src="img/javascrit.png" alt="HTML Logo" class="skill-icon">
+                  <div class="sk-title">JavaScript</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        version="1.1"
+                        width="180px"
+                        height="180px"
+                      >
+                        <defs>
+                          <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                          </linearGradient>
+                        </defs>
+                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                      </svg>
+                      <h2 class="counter"><span data-target="60">0</span>%</h2>
+                    </div>
+                  </div>
+                  <img style="width: 4rem ;height: 4rem;padding: 4px;" src="img/tailwind.png" alt="HTML Logo" class="skill-icon">
+                  <div class="sk-title">Tailwind</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        version="1.1"
+                        width="180px"
+                        height="180px"
+                      >
+                        <defs>
+                          <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                          </linearGradient>
+                        </defs>
+                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                      </svg>
+                      <h2 class="counter"><span data-target="51">0</span>%</h2>
+                    </div>
+                  </div>
+                  <img style="width: 4rem ;height: 4rem;padding: 4px;" src="img/bootstrap.svg" alt="HTML Logo" class="skill-icon">
+                  <div class="sk-title">BootStrap</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        version="1.1"
+                        width="180px"
+                        height="180px"
+                      >
+                        <defs>
+                          <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                          </linearGradient>
+                        </defs>
+                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                      </svg>
+                      <h2 class="counter"><span data-target="65">0</span>%</h2>
+                    </div>
+                  </div>
+                  <img style="width: 4rem ;height: 4rem;padding: 4px;" src="img/reactjs.png" alt="HTML Logo" class="skill-icon">
+                  <div class="sk-title">ReactJs</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        version="1.1"
+                        width="180px"
+                        height="180px"
+                      >
+                        <defs>
+                          <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                          </linearGradient>
+                        </defs>
+                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                      </svg>
+                      <h2 class="counter"><span data-target="48">0</span>%</h2>
+                    </div>
+                  </div>
+                  <img style="width: 4rem ;height: 4rem;padding: 4px;" src="img/mongodb.png" alt="HTML Logo" class="skill-icon">
+                  <div class="sk-title">MongoDB</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        version="1.1"
+                        width="180px"
+                        height="180px"
+                      >
+                        <defs>
+                          <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                          </linearGradient>
+                        </defs>
+                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                      </svg>
+                      <h2 class="counter"><span data-target="68">0</span>%</h2>
+                    </div>
+                  </div>
+                  <img style="width: 4rem ;height: 4rem;padding: 4px;" src="img/mysql.png" alt="HTML Logo" class="skill-icon">
+                  <div class="sk-title">MySQL</div>
+                </div>
+
+
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        version="1.1"
+                        width="180px"
+                        height="180px"
+                      >
+                        <defs>
+                          <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                          </linearGradient>
+                        </defs>
+                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                      </svg>
+                      <h2 class="counter"><span data-target="41">0</span>%</h2>
+                    </div>
+                  </div>
+                  <img style="width: 4rem ;height: 4rem;padding: 4px;" src="img/jquery.png" alt="HTML Logo" class="skill-icon">
+                  <div class="sk-title">JQuery</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        version="1.1"
+                        width="180px"
+                        height="180px"
+                      >
+                        <defs>
+                          <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                          </linearGradient>
+                        </defs>
+                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                      </svg>
+                      <h2 class="counter"><span data-target="55">0</span>%</h2>
+                    </div>
+                  </div>
+                  <img style="width: 4rem ;height: 4rem;padding: 4px;" src="img/nodejs.png" alt="HTML Logo" class="skill-icon">
+                  <div class="sk-title">NodeJs</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        version="1.1"
+                        width="180px"
+                        height="180px"
+                      >
+                        <defs>
+                          <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                          </linearGradient>
+                        </defs>
+                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                      </svg>
+                      <h2 class="counter"><span data-target="70">0</span>%</h2>
+                    </div>
+                  </div>
+                  <img style="width: 4rem ;height: 4rem;padding: 4px;" src="img/github.svg" alt="HTML Logo" class="skill-icon">
+                  <div class="sk-title">Github</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        version="1.1"
+                        width="180px"
+                        height="180px"
+                      >
+                        <defs>
+                          <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                          </linearGradient>
+                        </defs>
+                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                      </svg>
+                      <h2 class="counter"><span data-target="85">0</span>%</h2>
+                    </div>
+                  </div>
+                  <img style="width: 4rem ;height: 4.5rem;padding: 4px;" src="img/java.png" alt="HTML Logo" class="skill-icon">
+                  <div class="sk-title">Java</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        version="1.1"
+                        width="180px"
+                        height="180px"
+                      >
+                        <defs>
+                          <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                          </linearGradient>
+                        </defs>
+                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                      </svg>
+                      <h2 class="counter"><span data-target="79">0</span>%</h2>
+                    </div>
+                  </div>
+                  <img style="width: 4rem ;height: 4rem;padding: 4px;" src="img/python.png" alt="HTML Logo" class="skill-icon">
+                  <div class="sk-title">Python</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        version="1.1"
+                        width="180px"
+                        height="180px"
+                      >
+                        <defs>
+                          <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                          </linearGradient>
+                        </defs>
+                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                      </svg>
+                      <h2 class="counter"><span data-target="53">0</span>%</h2>
+                    </div>
+                  </div>
+                  <img style="width: 4rem ;height: 4rem;padding: 4px;" src="img/c.png" alt="HTML Logo" class="skill-icon">
+                  <div class="sk-title">C</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <footer>
-        <p>Copyright © 2024 by <span>Rizil Patel</span> || All Right Reservd.</p>
+      <p>Copyright © 2024 by <span>Rizil Patel</span> || All Right Reserved.</p>
     </footer>
 
     <div id="progress">
-        <span id="progress-value">
-            <i class='bx bxs-chevrons-up' ></i>
-        </span>
+      <span id="progress-value">
+        <i class="bx bxs-chevrons-up"></i>
+      </span>
     </div>
 
     <!-- scroll reveal  -->
     <script src="https://unpkg.com/scrollreveal"></script>
     <!-- Swiper JS -->
-     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <!-- mixitup cdn js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
     <script src="script.js"></script>
-</body>
+    <script src="script1.js"></script>
+  </body>
 </html>

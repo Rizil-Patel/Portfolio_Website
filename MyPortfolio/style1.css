@@ -1,0 +1,91 @@
+/* Modal styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(220, 219, 219, 0.2); /* Black w/ opacity */
+    backdrop-filter: blur(10px); /* Blur effect */
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    max-width: 600px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 0.5s ease;
+    color: #7c8084;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-50px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Blur background when modal is active */
+body.modal-active {
+    overflow: hidden; /* Prevent scrolling */
+}
+
+body.modal-active::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    z-index: 1;
+}
+
+.modal-content a {
+    margin: 0 10px; /* Spacing between icons */
+    text-decoration: none; /* Remove underline */
+}
+
+.modal-content i {
+    font-size: 36px; /* Increase icon size */
+    color: #aa23df; /* Set icon color */
+    transition: color 0.3s, transform 0.3s; /* Smooth transition for color and transform */
+}
+
+.modal-content i:hover {
+    color: #ff1493; /* Change color on hover */
+    transform: scale(1.2); /* Slightly enlarge on hover */
+}
+
+/* Contact information styles */
+.modal-content p {
+    font-size: 18px; /* Increase font size for better readability */
+    color: #7e7a7a; /* Dark gray text color */
+    margin: 10px 0;
+}
+
+.modal-content h2 {
+    color: #b40693;
+}
+

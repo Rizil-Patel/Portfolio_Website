@@ -15,7 +15,6 @@ navlist.addEventListener("click",()=>{
 })
 
 
-
 // rotate text js code 
 let text = document.querySelector(".text p");
 
